@@ -1,0 +1,49 @@
+/*fixing the border around the content using div and id*/
+#box{
+  
+  border : 5px solid white;
+  border-radius:10px;
+  margin-left:22rem;
+  padding-left:10px;
+  padding-right:30px;
+  hieght:50%;
+  width:50%;
+  box-shadow:30px 30px 50px #ddd;
+  background-color:#aaa;
+  
+  
+  
+  
+  
+    
+}
+
+/*fixing the background image by using myPic id*/
+#myPic{
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:-999;
+  /*using custom bullet*/
+}
+/*costum bullet*/
+   list-style-type:lower-alpha; list-style-type: lower-greek;
+}
+/* multiple unordered list style types*/ 
+ul.a{
+  list-style-type: upper-roman;
+}
+ul.b{
+  list-style-type: upper-roman;
+}
+ul.c{
+  list-style: url("https://cdn.glitch.com/af96c54b-677f-4efa-b59a-2c56c8522a00%2Fbullet_blue.ico?v=1601934031118");
+}
+ul.d{
+  list-style: url("https://cdn.glitch.com/af96c54b-677f-4efa-b59a-2c56c8522a00%2Fbullet_blue.ico?v=1601934031118");
+}
+
+
+
